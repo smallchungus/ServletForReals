@@ -9,17 +9,34 @@
 <title></title>
 </head>
 <body>
-	<h1>Login Page Or Search</h1>
+<div align="center">
+	<h1>Login Page</h1>
 	<form action ="<%= request.getContextPath() %>/register" method="POST">
-		<input type="text" name="username"> <br /> 
-		<input type="text" name="password" /> <br /> 
-		<input type="submit" value="submit" /> <br />
+	<table style="with: 80%">
+	<tr>
+	<td>Username</td>
+		<td><input type="text" name="username"></td>
+	</tr>
+	<tr>
+	
+	<td>Password</td>
+		<td><input type="password" name="password" /></td>
+	</tr>
+	</table>
+		<input type="submit" value="submit" />
 	</form>
 	
 	<form action ="<%= request.getContextPath() %>/search" method="POST">
-		<input type="text" name="search"><br />
+	<h1>Search</h1>
+	<table style="with: 80%">
+	<tr>
+		<td><input type="text" name="search"></td>
+	</tr>
+	</table>
+	
 		<input type="submit" value="searchThis" /> 
 	</form>
+</div>
 	
 </body>
 </html>
