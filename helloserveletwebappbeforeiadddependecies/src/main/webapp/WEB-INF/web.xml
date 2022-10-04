@@ -5,27 +5,16 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
   
- <!--  <welcome-file-list>
-  <welcome-file>EmployeeRegister.jsp</welcome-file>
-  </welcome-file-list>
-  <servlet>
-  	<servlet-name>EmployeeServlet</servlet-name>
-  	<display-name>EmployeeServlet</display-name>
+  
+ <!--   <servlet>
+  	<servlet-name>search</servlet-name>
+  	<display-name>search</display-name>
   	<description></description>
-	 <servlet-class>Java.net.javaguides.registration.controller.EmployeeServlet</servlet-class>
-  </servlet>
-  <servlet>
-  	<servlet-name>EmployeeSearch</servlet-name>
-  	<display-name>EmployeeSearch</display-name>
-  	<description></description>
-  	<servlet-class>Java.net.javaguides.registration.controller.EmployeeSearch</servlet-class>
+  	<servlet-class>Java.net.javaguides.registration.controller.search</servlet-class>
   </servlet>
   <servlet-mapping>
-  	<servlet-name>EmployeeServlet</servlet-name>
-  	<url-pattern>/EmployeeServlet</url-pattern>
+  	<servlet-name>search</servlet-name>
+  	<url-pattern>/searchThis</url-pattern>
   </servlet-mapping>
-  <servlet-mapping>
-  	<servlet-name>EmployeeSearch</servlet-name>
-  	<url-pattern>/EmployeeSearch</url-pattern>
-  </servlet-mapping> -->
+  -->
 </web-app>
