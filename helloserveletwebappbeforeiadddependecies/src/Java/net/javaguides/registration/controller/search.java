@@ -50,7 +50,9 @@ public class search extends HttpServlet {
 
 			String toBeSearched = request.getParameter("search");
 			out.println("To Be Searched: " + toBeSearched);
-			searchFunction ( toBeSearched ); 
+			searchFile.searchFunction ( toBeSearched ); 
+			
+			
 		} catch (Exception e) {
 			System.out.println("there is an error in the doPost method <br>");
 			e.printStackTrace();
@@ -59,30 +61,4 @@ public class search extends HttpServlet {
 		doGet(request, response);
 	}
 	
-	private void searchFunction ( String toBeSearched )
-	{
-		try {
-			File myObj = new File("C:\\Users\\wchen\\eclipse\\jee-2022-06\\eclipse\\filenameNew.txt");
-			Scanner myReader = new Scanner(myObj);
-			
-			int count = 0; 
-			while (myReader.hasNextLine()) 
-			{
-				String data = myReader.nextLine().toLowerCase().toString();
-				if ( data.contains(toBeSearched))
-				{
-				System.out.println(data);
-				count++;
-				}
-			}
-			
-			System.out.println("Number of times your inquiry is in the file " + count);
-			myReader.close();
-		} catch (NullPointerException e) {
-			System.out.println("File not found here");
-		} catch (Exception e) {
-			System.out.println("exception occured");
-		}
-	}
-
 }
