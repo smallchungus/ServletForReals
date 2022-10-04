@@ -10,8 +10,18 @@
   	<description></description>
   	<servlet-class>Java.net.javaguides.registration.controller.EmployeeServlet</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>EmployeeSearch</servlet-name>
+  	<display-name>EmployeeSearch</display-name>
+  	<description></description>
+  	<servlet-class>Java.net.javaguides.registration.controller.EmployeeSearch</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>EmployeeServlet</servlet-name>
   	<url-pattern>/EmployeeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EmployeeSearch</servlet-name>
+  	<url-pattern>/EmployeeSearch</url-pattern>
   </servlet-mapping>
 </web-app>
