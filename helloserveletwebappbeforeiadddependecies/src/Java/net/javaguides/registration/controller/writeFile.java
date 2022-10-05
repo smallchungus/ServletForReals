@@ -3,10 +3,10 @@ import java.io.FileWriter;
 
 public class writeFile {
 	
-	public static void writeInFile (String username, String password ) 
+	public static void writeFunction (String username, String password ) 
 	{
 	try {
-		FileWriter myWriter = new FileWriter("fileName.txt", true);
+		FileWriter myWriter = new FileWriter("fileNameNew.txt", true);
 		myWriter.write(username + "\n");
 		myWriter.write(password + "\n");
 		myWriter.close();

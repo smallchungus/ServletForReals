@@ -46,9 +46,9 @@ public class EmployeeServlet extends HttpServlet {
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
 		
-		writeFile.writeInFile(username, password);
-		
-		
+		writeFile.writeFunction(username, password);
+		readFile.readFunction("C:\\Users\\wchen\\eclipse\\jee-2022-06\\eclipse\\fileNameNew.txt");
+		//exportFile.exportFunction("C:\\Users\\wchen\\eclipse\\jee-2022-06\\eclipse\\fileNameNew.txt",);
 		doGet(request, response);
 	}
 
