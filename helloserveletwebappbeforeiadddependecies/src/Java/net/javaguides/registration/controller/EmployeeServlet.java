@@ -62,6 +62,7 @@ public class EmployeeServlet extends HttpServlet {
 
 		writeFile.writeFunction(username, password);
 		readFile.readFunction("C:\\Users\\wchen\\eclipse\\jee-2022-06\\eclipse\\fileNameNew.txt");
+		exportFile.exportFunction();
 		doGet(request, response);
 	}
 
