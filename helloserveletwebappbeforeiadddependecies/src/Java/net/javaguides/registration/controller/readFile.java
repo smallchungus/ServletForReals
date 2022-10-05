@@ -13,10 +13,11 @@ public class readFile {
 			
 			while ( myReader.hasNextLine()) {
 				String data = myReader.nextLine();
+				System.out.println(data);
 				count++;
 			}
 			myReader.close();
-			exportFile.exportFunction(inputFileName, count);
+			//EmployeeServlet.exportFunction(inputFileName, count);
 		}
 		catch ( NullPointerException e ) {
 			System.out.println("File not found here when calling readFile");

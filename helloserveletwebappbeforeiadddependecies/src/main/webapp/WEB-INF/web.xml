@@ -1,42 +1,12 @@
-<!DOCTYPE web-app PUBLIC
- "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
- "http://java.sun.com/dtd/web-app_2_3.dtd" >
-
+<?xml version="1.0" encoding="UTF-8"?>
 <web-app>
-  <display-name>Archetype Created Web Application</display-name>
-<!--
-   <servlet>
-  	<servlet-name>EmployeeServlet</servlet-name>
-  	<display-name>EmployeeServlet</display-name>
-  	<description></description>
-  	<servlet-class>Java.net.javaguides.registration.controller.EmployeeServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-  	<servlet-name>EmployeeServlet</servlet-name>
-  	<url-pattern>/EmployeeServlet</url-pattern>
-  </servlet-mapping>
- 
- <servlet>
-  	<servlet-name>EmployeeSearch</servlet-name>
-  	<display-name>EmployeeSearch</display-name>
-  	<description></description>
-  	<servlet-class>Java.net.javaguides.registration.controller.EmployeeSearch</servlet-class>
-  </servlet>
-  <servlet-mapping>
-  	<servlet-name>EmployeeSearch</servlet-name>
-  	<url-pattern>/EmployeeSearch</url-pattern>
-  </servlet-mapping>
-  
-  
-   <servlet>
-  	<servlet-name>search</servlet-name>
-  	<display-name>search</display-name>
-  	<description></description>
-  	<servlet-class>Java.net.javaguides.registration.controller.search</servlet-class>
-  </servlet>
-  <servlet-mapping>
-  	<servlet-name>search</servlet-name>
-  	<url-pattern>/searchThis</url-pattern>
-  </servlet-mapping>
-  -->
+	<display-name>helloserveletwebappbeforeiadddependecies</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
 </web-app>
